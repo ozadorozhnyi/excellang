@@ -27,39 +27,18 @@ foreach (new \DirectoryIterator(LANG_SOURCE_PATH) as $fileInfo) {
     }
 }
 
-//echo "ROWS".PHP_EOL;
-//print_r($rows);
-//exit;
-//echo PHP_EOL."===========================".PHP_EOL;
-
-//echo "FILTERED";
-//print_r($filtered);
-//exit;
-
 foreach ($filtered as $filename => $items) {
     if (count($items)) {
         recurse($items, [], $filename);
     }
 }
 
-//echo PHP_EOL."===========================".PHP_EOL;
-//print_r($nested_key_rows);
-//exit;
-
 foreach ($nested_key_rows as $filename => $nested_keys) {
     $lang = basename(pathinfo($filename)['dirname']);
-    //echo $lang.PHP_EOL;
-    //echo PHP_EOL.'=============='.$filename.PHP_EOL;
     foreach ($nested_keys as $key => $value) {
         $rows[$lang][$filename][$key] = $value;
-        //print_r("{$key} ====> {$value}");
-        //echo PHP_EOL;
     }
 }
-
-//echo PHP_EOL."============FINAL===============".PHP_EOL;
-//print_r($rows);
-//exit;
 
 foreach ($rows as $lang => $files) {
     foreach ($files as $fileName => $rows) {
