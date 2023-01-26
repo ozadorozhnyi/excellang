@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'arrival_time' => 'Arrival Time',
+    'attendees' => 'Attendees',
+    'check_in' => 'Check in: :event',
+    'email' => 'Email',
+    'email_address' => 'Email Address',
+    'event_attendees' => 'Event Attendees',
+    'first_name' => 'First Name',
+    'has_arrived' => 'Has Arrived',
+    'last_name' => 'Last Name',
+    'name' => 'Name',
+    'reference' => 'Reference',
+    'scanning' => 'Scanning',
+    'scan_another_ticket' => 'Scan Another Ticket',
+    'search_attendees' => 'Search (email, order ID, name)',
+    'send_invitation_n_ticket_to_attendee' => 'Send invitation & ticket to attendee.',
+    'ticket' => 'Ticket',
+    'undo_cancel_attendee' => 'Undo cancel attendee',
+    'cancel_attendee_description' => 'Undo attendee cancellation to reactivate their ticket.',
+    'change_date' => 'Change date',
+    'select_date' => 'Select date',
+    'no_tickets_assigned' => 'There are no tickets assigned to this calenar. Plese assign at least one ticket to this calendar through the ticket settings, using the “Calendar” dropdown option.',
+    'cancel_booking' => 'Cancel Booking',
+    'resend_tickets' => 'Resend Tickets',
+    'download_tickets' => 'Download Tickets',
+];
