@@ -1,6 +1,6 @@
 <?php
 
-const LANG_SOURCE_PATH = __DIR__."/storage/source";
+const LANG_SOURCE_PATH = __DIR__ . "/storage/source";
 
 const XLSX_DEST_PATH = __DIR__ . "/storage/xlsx";
 const XLSX_EXT = "xlsx";

@@ -1,6 +1,6 @@
 .DS_Store
 .idea/*
 vendor/
-storage/source/
-storage/xlsx/
-storage/xlsx/*/
+app/storage/source/
+app/storage/xlsx/
+app/storage/xlsx/*/

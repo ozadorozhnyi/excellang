@@ -1,8 +1,8 @@
 <?php
 
-require_once __DIR__.'/vendor/autoload.php';
-require_once __DIR__.'/const.php';
-require_once __DIR__.'/functions.php';
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/const.php';
+require_once __DIR__ . '/functions.php';
 
 if ('array2excel.php' === $_SERVER['SCRIPT_NAME']) {
     foreach (\array_keys(TRANSLATE_MAP) as $lang) {
